@@ -13,7 +13,7 @@ function loadCountries(region) {
                 let blockCountry =
                     `<div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 ">
                         <div class="card">
-                            <img class="card-img-top" src="${country.flags.png}" alt="Vlajka ${country.name.common}" />
+                            <img class="card-img-top" src="${country.flags.png}" alt="Vlajka ${country.name.common}"  style="width: 100%; height: 150px; object-fit: cover;" />
                             <div class="card-body">
                                 <h4 class="card-title"><a href="#">${country.translations.ces.common}</a></h4>
                                 <p class="card-text">Hlavní město: <b>${country.capital[0]}</b></p>
